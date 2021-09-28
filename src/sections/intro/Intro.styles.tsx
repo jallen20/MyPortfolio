@@ -2,6 +2,9 @@ import styled, {keyframes} from 'styled-components';
 
 const move = keyframes`
      0% {background-position: left}
+     25% {background-size: 200%}
+     50% {background-size: 100%}
+     75% {background-size: 50%}
     100% {background-position: right; background-size: 1%}
 `;
 
