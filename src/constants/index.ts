@@ -1,0 +1,1 @@
+export const IMG_BASE_PATH = 'assets/images';

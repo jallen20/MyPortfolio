@@ -19,11 +19,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-canvas {
-  background: transparent;
-  position: absolute;
-}
-#canvas {
-  top: 0;
-}

@@ -46,7 +46,6 @@ function Dot(x, y, radius, color, animationRadius, velocity) {
         c.fillStyle = this.color
         c.fill()
         c.closePath()
-        console.log(this.animationRadius);
     }
 
     this.update = () => {

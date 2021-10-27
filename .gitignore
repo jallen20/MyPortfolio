@@ -23,5 +23,7 @@ yarn-debug.log*
 yarn-error.log*
 
 *.d.ts
+*.sh
 
+# IDE
 .idea

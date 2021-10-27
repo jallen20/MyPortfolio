@@ -1,11 +1,16 @@
 import React from 'react';
-import Intro from "./sections/intro";
-import NavBar from "./components/nav-bar";
-import About from "./sections/about";
+import {Router} from 'react-router-dom';
+import Routes from "./Routes";
+import {createBrowserHistory} from "history";
+import Header from "./components/header";
+import Footer from "./components/footer";
+
 export default (
     <>
-        <Intro id='home'/>
-        <NavBar/>
-        <About id='about'/>
+        <Router history={createBrowserHistory()}>
+            <Header />
+            <Routes />
+            <Footer/>
+        </Router>
     </>
 );
